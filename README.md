@@ -6,6 +6,8 @@
 mkdir projects
 # create lerobot folder
 mkdir lerobot
+# show files with ls (list dir)
+ls -lat
 
 # github told us to do for init a git repository:
 echo "# lerobot" >> README.md
@@ -27,4 +29,7 @@ git push
 nano <filename>
 ```
 
-
+## Add a local python in the project
+```
+python3 -m venv venv
+```
