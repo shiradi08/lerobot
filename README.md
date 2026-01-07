@@ -15,6 +15,11 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/shiradi08/lerobot.git
 git push -u origin main
+
+# update git
+git add <file>
+git commit -m "<message>"
+git push
 ```
 
 ## Editor in the command line
