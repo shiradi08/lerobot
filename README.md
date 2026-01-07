@@ -1,5 +1,15 @@
 # lerobot
 
+## Useul liknk
+```
+github.com
+https://huggingface.co/docs/lerobot/en/installation
+https://repo.anaconda.com/miniconda/
+```
+
+
+
+
 ## Some bash commands
 ```
 # in the home directory create a projects folder
@@ -8,6 +18,12 @@ mkdir projects
 mkdir lerobot
 # show files with ls (list dir)
 ls -lat
+# Move file
+mv ~/Downloads/Miniconda3-latest-MacOSX-x86_64.sh .
+# Make is executable
+chmod +x Miniconda3-latest-MacOSX-x86_64.sh
+# To run the minicomnda installation
+./Miniconda3-latest-MacOSX-x86_64.sh
 
 # github told us to do for init a git repository:
 echo "# lerobot" >> README.md
